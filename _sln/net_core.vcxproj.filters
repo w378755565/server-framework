@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{1a902872-dfc9-48af-bba6-4c312c179e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_extrernal">
+      <UniqueIdentifier>{54080412-4dae-4d8b-83d5-08da27a6eb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\thread">
+      <UniqueIdentifier>{4aad3558-9854-4a2c-85a7-09167f8e3de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{be5ca3f5-ea0c-4769-8af8-3345ca150748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\logger">
+      <UniqueIdentifier>{f143ca20-46be-4e1b-839e-57c716c9acba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\lock">
+      <UniqueIdentifier>{abb57e2b-9233-4893-83d5-ea4192f31b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{0315b16e-6126-451f-81bb-c119e6df7578}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\net_core\common\thread\threadinter.h">
+      <Filter>common\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\common\thread\threadcpp11.h">
+      <Filter>common\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\common\thread\threadhandler.h">
+      <Filter>common\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\_extrernal\sources.h">
+      <Filter>_extrernal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\_extrernal\netctrl.h">
+      <Filter>_extrernal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\net\nethandler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\net\netinter.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\common\logger\loggerhandler.h">
+      <Filter>common\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\common\util\blockqueue.hpp">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\common\lock\locker.h">
+      <Filter>common\lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net_core\common\lock\condition.h">
+      <Filter>common\lock</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\net_core\common\thread\threadcpp11.cpp">
+      <Filter>common\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net_core\common\thread\threadhandler.cpp">
+      <Filter>common\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net_core\common\logger\loggerhandler.cpp">
+      <Filter>common\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net_core\common\lock\locker.cpp">
+      <Filter>common\lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net_core\common\lock\condition.cpp">
+      <Filter>common\lock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
